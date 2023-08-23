@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const PORT=8000
 
-const userRoutes=require('./ROUTES/UserRoutes')
+const userRoutes=require('./ROUTES/userRoutes')
 const taskRoutes=require('./ROUTES/taskRoutes')
 
 require('./db')
